@@ -1,0 +1,11 @@
+{
+	"vertx.http.verticle.instance_count" : 2,
+	"vertx.db.verticle.instance_count" : 2,
+	"vertx.db.host" : "localhost",
+	"vertx.db.port" : 5432,
+	"vertx.db.user" : "postgres",
+	"vertx.db.password" : "bmcAdm1n",
+	"vertx.db.database" : "project",
+	"vertx.db.max_pool_size" : 100,
+	"row_stream_fetch_size" : 1024
+}
