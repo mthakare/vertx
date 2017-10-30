@@ -19,10 +19,15 @@ Steps to deploy, After checkout ..
 	1.3 Create a jar file 'vertx-crud-<version>-full.jar' (vertx-crud-0.0.1-full.jar)
 
 2. To deploy this service use following command :
+
 	(Windows)
+	
 	'java -jar target\vertx-crud-0.0.1-full.jar -conf src\main\resources\service-conf.json'
+	
 	(Unix)
+	
 	'java -jar target/vertx-crud-0.0.1-full.jar -conf src/main/resources/service-conf.json'
+	
 
 	
 Database configuration
