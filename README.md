@@ -1,4 +1,4 @@
-# Micro service to execute a patch workflow that spawns multiple different systems participating in the execution of a  patching process for a typical business service
+
 
 Requirements 
 
@@ -16,10 +16,22 @@ Steps to deploy, After checkout ..
 
 	1.2 Run all defined test suites.
 
-	1.3 Create a jar file 'patch-factory-<version>-full.jar' (patch-factory-0.0.1-full.jar)
+	1.3 Create a jar file 'vertx-crud-<version>-full.jar' (vertx-crud-0.0.1-full.jar)
 
 2. To deploy this service use following command :
-	'java -jar target\patch-factory-0.0.1-full.jar -conf src\main\resources\service-conf.json'
+	(Windows)
+	'java -jar target\vertx-crud-0.0.1-full.jar -conf src\main\resources\service-conf.json'
+	(Unix)
+	'java -jar target/vertx-crud-0.0.1-full.jar -conf src/main/resources/service-conf.json'
+
+	
+Database configuration
+
+	1. PostgresSQL 9.6
+	2. Find database schema defined at src/main/resources/project_schema.sql
+	3. Create schema named 'master_schema'
+	4. Create a sequence and set 'id' column default value as 'nextval('master_schema.<squuence_name>'::regclass)'
 
 
-"# vertx" 
+
+
