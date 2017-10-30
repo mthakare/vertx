@@ -28,7 +28,7 @@ Steps to deploy, After checkout ..
 	
 	'java -jar target/vertx-crud-0.0.1-full.jar -conf src/main/resources/service-conf.json'
 	
-
+3. Modify service-conf.json to add database configuration and / or change verticle configuration.
 	
 Database configuration
 
