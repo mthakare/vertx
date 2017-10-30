@@ -36,7 +36,33 @@ Database configuration
 	2. Find database schema defined at src/main/resources/project_schema.sql
 	3. Create schema named 'master_schema'
 	4. Create a sequence and set 'id' column default value as 'nextval('master_schema.<squuence_name>'::regclass)'
+	
+	
+APIs
 
+	GET http://localhost:1729/v1/vertxapp/records
+	
+	POST http://localhost:1729/v1/vertxapp/records
+	
+	   Body :
+	   
+	      {
+		  
+			"name" : "project 1",
+			
+			"owner" : "john nash",
+			
+			"policy" : {
+			
+				"name" : "policy 1"
+				
+			},
+			
+			"service_id" : "xsdsxs"
+			
+		}
+
+	GET http://localhost:1729/v1/vertxapp/version
 
 
 
