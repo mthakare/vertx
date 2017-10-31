@@ -1,0 +1,8 @@
+{
+	"name" : "project 1",
+	"owner" : "john nash",
+	"policy" : {
+		"name" : "policy 1"
+	},
+	"service_id" : "xsdsxs"
+}
