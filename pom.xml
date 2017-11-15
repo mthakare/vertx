@@ -40,11 +40,6 @@
 			<artifactId>vertx-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.bmc.secops</groupId>
-			<artifactId>common-dbmigrate</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
 			<groupId>io.vertx</groupId>
 			<artifactId>vertx-codegen</artifactId>
 			<scope>provided</scope>
